@@ -41,10 +41,3 @@ The **NewsBlend** app aims to provide quick and efficient access to summarized n
 To reduce external API usage, NewsBlend processes articles in batches. An AWS Lambda function periodically fetches new articles from the **World News API** and applies **OpenAI GPT** to summarize them. The summarized content is stored in a database, which the app fetches from, minimizing real-time API costs.
 
 **NewsBlend API:** [https://newsblend.abdullahjaswal.com](https://newsblend.abdullahjaswal.com)
-
-## References
-
-1. [Apple Human Interface Guidelines: Search Fields](https://developer.apple.com/design/human-interface-guidelines/search-fields)
-2. [Apple Human Interface Guidelines: Tab Bars](https://developer.apple.com/design/human-interface-guidelines/tab-bars)
-3. [Apple Human Interface Guidelines: Typography](https://developer.apple.com/design/human-interface-guidelines/typography)
-4. [Apple Human Interface Guidelines: Scroll Views](https://developer.apple.com/design/human-interface-guidelines/scroll-views)
