@@ -72,6 +72,14 @@ struct ArticleView: View {
                             .foregroundColor(accent)
                         Spacer()
                     }.padding()
+                    
+                    if let location = newsItem.location {
+                        ArticleLocation(
+                            location: location,
+                            sentiment: newsItem.sentiment,
+                            is_breaking_news: newsItem.is_breaking_news
+                        )
+                    }
 
                     if !newsItem.content.isEmpty {
                         ArticleTextContent(
