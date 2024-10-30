@@ -19,7 +19,7 @@ struct ArticleTextContent: View {
     let accent: Color
 
     @State private var selectedKeyword: KeywordItem?
-    @State private var showQuotes: Bool = false
+    @State private var showQuotes: Bool = true
     @State private var currentScale: CGFloat = 1.0
 
     private let sensitivity: CGFloat = 0.025
