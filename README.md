@@ -1,5 +1,7 @@
 # NewsBlend
 
+![NewsBlend Preview](./preview.gif)
+
 ## Summary
 
 **NewsBlend** is an app designed to simplify news consumption. It uses a custom API to gather articles from the World News API based on user queries and integrates the ChatGPT API to provide concise summaries. It highlights sensational news as "breaking news" and allows users to customize the display format.
