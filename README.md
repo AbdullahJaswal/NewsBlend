@@ -14,10 +14,6 @@ The **NewsBlend** app aims to provide quick and efficient access to summarized n
 - **Customizable Display:** Users can choose between viewing news summaries as bullet points or in paragraphs.
 - **Efficient Information Processing:** Preprocessed data minimizes external API calls, reducing costs.
 
-## Contributors
-
-- **Abdullah Jaswal**
-
 ## Topics
 
 ### Features
