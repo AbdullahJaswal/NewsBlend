@@ -16,7 +16,6 @@ The **NewsBlend** app aims to provide quick and efficient access to summarized n
 
 ## Contributors
 
-- **Suraj Chodankar**
 - **Abdullah Jaswal**
 
 ## Topics
@@ -39,5 +38,3 @@ The **NewsBlend** app aims to provide quick and efficient access to summarized n
 ## Data Requirements
 
 To reduce external API usage, NewsBlend processes articles in batches. An AWS Lambda function periodically fetches new articles from the **World News API** and applies **OpenAI GPT** to summarize them. The summarized content is stored in a database, which the app fetches from, minimizing real-time API costs.
-
-**NewsBlend API:** [https://newsblend.abdullahjaswal.com](https://newsblend.abdullahjaswal.com)
